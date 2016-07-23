@@ -1,0 +1,39 @@
+{
+  "name": "calltalent_web_cyclejs",
+  "version": "1.0.0",
+  "description": "Web Client for CallTalent powered by Cycle.js",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "mkdirp dist && typings install && tsc",
+    "webpack": "webpack-dev-server",
+    "start": "npm install && npm run webpack && echo 'OPEN index.html IN YOUR BROWSER'"
+  },
+  "dependencies": {
+    "@cycle/dom": "^11.0.1",
+    "@cycle/isolate": "^1.4.0",
+    "@cycle/xstream-run": "^3.0.3",
+    "typescript": "^1.8.10",
+    "xstream": "^5.3.1"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "typings": "^1.3.2",
+    "mkdirp": "0.5.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpcfan/calltalent_web_cyclejs.git"
+  },
+  "keywords": [
+    "cyclejs",
+    "node",
+    "calltalent"
+  ],
+  "author": "Peng Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wpcfan/calltalent_web_cyclejs/issues"
+  },
+  "homepage": "https://github.com/wpcfan/calltalent_web_cyclejs#readme"
+}

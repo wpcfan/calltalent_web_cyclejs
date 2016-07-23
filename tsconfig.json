@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": true,
+        "removeComments": true,
+        "declaration": true,
+        "preserveConstEnums": true,
+        "noEmitOnError": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "formatCodeOptions": {
+        "indentSize": 4,
+        "tabSize": 4
+    },
+    "exclude": [
+        "node_modules",
+        "typings/globals",
+        "dist"
+    ]
+}
